@@ -1,0 +1,2 @@
+Q1. what is resource dependency and difference bewteen implicit and explicit dependency ?. 
+Q2. How to achieve explicit dependency ? 
