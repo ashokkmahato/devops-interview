@@ -116,19 +116,6 @@ Scenario-Based Questions
 A client needs a global load balancing solution for a web app. Which solution would you recommend?
 You need to enable DDoS protection for a public-facing application. How would you implement it?
 Your Application Gateway is experiencing high latency. How would you troubleshoot it?
-This list should give you a comprehensive preparation for Azure networking, security, and hybrid connectivity interviews. Let me know if you need more deep dives into any topic! 🚀
-
-
-
-
-
-
-
-
-You said:
-Azure monitor and network watcher 
-ChatGPT said:
-Here’s a detailed breakdown of interview questions for Azure Monitor and Azure Network Watcher, categorized by medium, advanced, and scenario-based levels.
 
 1. Azure Monitor
 Medium-Level Questions
