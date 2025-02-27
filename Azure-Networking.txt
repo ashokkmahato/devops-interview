@@ -1,0 +1,2 @@
+what is hub and spoke model . which components will be placed under hub and which will be on spoke . 
+what are benefits of using hub and spoke model . Is there any drawback . and how do we set up in azure . 
