@@ -10,3 +10,197 @@ NSG and WAF details ? roles and there implementation
 Load balancers types ,application gateway ,  use cases .. how will you choose which load balancer is best suited for application . 
 Frontdoor and CDN Profiles ??
 Azure Monitoring and network wtacher ? 
+
+
+
+
+1. Hub and Spoke Model
+Medium-Level Questions
+What is the Hub and Spoke model in Azure networking?
+What are the key components of the Hub and Spoke architecture?
+What services are typically placed in the Hub and which are placed in the Spokes?
+What are the main benefits of using the Hub and Spoke model?
+What are the potential drawbacks of implementing a Hub and Spoke model?
+Advanced Questions
+How does Hub and Spoke differ from a full-mesh topology?
+How do you set up a Hub and Spoke topology in Azure?
+What are the security best practices for a Hub and Spoke model?
+Can different subscriptions be used for the Hub and Spoke model?
+How do you ensure high availability and redundancy in a Hub and Spoke model?
+Scenario-Based Questions
+You need to connect multiple VNETs securely and centrally manage traffic filtering. How would you design the network?
+Your company has multiple regions. How would you modify the Hub and Spoke model to support global networking?
+Your Hub and Spoke model is experiencing latency issues. What steps will you take to troubleshoot and optimize?
+2. Landing Zone
+Medium-Level Questions
+What is an Azure Landing Zone?
+What are the key components of an Azure Landing Zone?
+Why should we use a Landing Zone in cloud adoption?
+What are the benefits of using a Landing Zone in Azure?
+What governance and security policies should be in a Landing Zone?
+Advanced Questions
+How does the Enterprise-Scale Landing Zone framework differ from a custom-built Landing Zone?
+How do Azure Policy, RBAC, and Blueprints fit into the Landing Zone design?
+How would you create a multi-subscription Landing Zone with automated deployment?
+What are the network security considerations when designing a Landing Zone?
+How does a Landing Zone integrate with DevOps processes?
+Scenario-Based Questions
+A company is moving to Azure and wants a secure and scalable cloud foundation. How would you design a Landing Zone?
+Your organization has compliance requirements (e.g., HIPAA, PCI-DSS). How would you ensure compliance in an Azure Landing Zone?
+How would you implement multi-region Landing Zones for a global enterprise?
+3. DNS Zones, Private DNS Zones, and DNS Private Resolvers
+Medium-Level Questions
+What is the difference between DNS Zones and Private DNS Zones?
+What is an Azure Private DNS Resolver, and how does it work?
+When should you use a Public DNS Zone versus a Private DNS Zone?
+What are the use cases of Private DNS Zones in a Hybrid environment?
+How does Azure automatically resolve Private DNS Zones within a VNET?
+Advanced Questions
+How do you configure conditional forwarding in Azure Private DNS Resolver?
+How does DNS resolution work across multiple regions in Azure?
+What are the best practices for managing DNS in an enterprise-scale Azure environment?
+How do you integrate on-premises DNS with Azure Private DNS Zones?
+How can you troubleshoot DNS resolution failures in Azure?
+Scenario-Based Questions
+Your on-premises DNS cannot resolve Azure Private DNS records. How would you fix this?
+You need to allow cross-VNET DNS resolution in a multi-VNET architecture. How would you configure it?
+A hybrid company wants split-brain DNS resolution for internal and external domains. How would you set this up?
+4. Private Link vs. Private Endpoint
+Medium-Level Questions
+What is Azure Private Link?
+What is the difference between Private Link and Private Endpoint?
+How does Private Link provide security for services in Azure?
+What are the use cases for using Private Link?
+How do Azure Private Endpoints help with Hybrid Connectivity?
+Advanced Questions
+How do you configure Private Link for an Azure Storage Account?
+What is the limitation of Private Link when used with VNET Peering?
+How does DNS resolution work when using Private Endpoints?
+What are the security considerations when using Private Link?
+How does Private Link affect routing and network traffic flow?
+Scenario-Based Questions
+Your company wants to restrict public access to Azure PaaS services. How would you configure Private Link?
+You need to provide secure connectivity to Azure SQL Database from on-prem. How would you design it?
+A customer has multiple VNets and wants to access a single Private Link resource. How would you set it up?
+5. Hybrid Connectivity: VPN, ExpressRoute, and VNET Peering
+Medium-Level Questions
+What is an Azure Virtual Network Gateway?
+What is Azure ExpressRoute, and how does it differ from a VPN Gateway?
+What are the use cases for ExpressRoute over Site-to-Site VPN?
+How does VNET Peering work between different subscriptions?
+How do you configure a Site-to-Site VPN connection in Azure?
+Advanced Questions
+What is the difference between ExpressRoute FastPath and Private Peering?
+How does Global VNET Peering improve hybrid connectivity?
+What are the bandwidth considerations for ExpressRoute circuits?
+How do you troubleshoot connectivity issues in a hybrid network?
+How do BGP routes work in Azure VPN and ExpressRoute?
+Scenario-Based Questions
+Your organization needs low-latency, private connectivity between Azure and On-Prem. Which solution would you choose?
+A company wants to use ExpressRoute but also needs internet failover. How would you design this?
+Your ExpressRoute circuit is experiencing packet drops. What troubleshooting steps would you take?
+6. Load Balancers, Application Gateway, Front Door & CDN
+Medium-Level Questions
+What are the different types of Azure Load Balancers?
+How do you decide between an Azure Load Balancer vs. Application Gateway?
+What are the use cases of Azure Front Door?
+What is the difference between Azure Front Door and Azure CDN?
+How do you configure high availability for a web application in Azure?
+Advanced Questions
+How does session persistence work in Azure Load Balancers?
+What is Path-Based Routing in Application Gateway?
+How does Front Door handle global traffic management?
+How do you configure end-to-end TLS encryption with Application Gateway?
+What are the security best practices for Azure Load Balancers?
+Scenario-Based Questions
+A client needs a global load balancing solution for a web app. Which solution would you recommend?
+You need to enable DDoS protection for a public-facing application. How would you implement it?
+Your Application Gateway is experiencing high latency. How would you troubleshoot it?
+This list should give you a comprehensive preparation for Azure networking, security, and hybrid connectivity interviews. Let me know if you need more deep dives into any topic! 🚀
+
+
+
+
+
+
+
+
+You said:
+Azure monitor and network watcher 
+ChatGPT said:
+Here’s a detailed breakdown of interview questions for Azure Monitor and Azure Network Watcher, categorized by medium, advanced, and scenario-based levels.
+
+1. Azure Monitor
+Medium-Level Questions
+What is Azure Monitor, and how does it help in observability?
+What are the key components of Azure Monitor?
+What is the difference between Metrics and Logs in Azure Monitor?
+How do Log Analytics Workspaces work in Azure Monitor?
+How can Azure Monitor be used to track performance and health metrics?
+What is Application Insights, and how does it relate to Azure Monitor?
+What are Diagnostic Settings in Azure Monitor, and why are they important?
+How can you create alerts in Azure Monitor?
+What are the different data sources that Azure Monitor can collect logs from?
+What is the difference between Activity Logs and Resource Logs?
+Advanced Questions
+How does Kusto Query Language (KQL) work in Azure Monitor?
+How would you troubleshoot performance issues in a VM using Azure Monitor?
+How do you set up custom dashboards in Azure Monitor?
+How does Azure Monitor integrate with third-party monitoring tools (e.g., Grafana, Splunk)?
+What are Action Groups, and how do they work with Azure Monitor alerts?
+How do Workbooks work in Azure Monitor, and how can they be used for visualization?
+How can Azure Monitor Metrics be used for real-time monitoring?
+What is the difference between classic alerts and new alerts in Azure Monitor?
+How can you optimize log ingestion costs in Azure Monitor?
+How would you automate alert responses using Azure Monitor and Logic Apps?
+Scenario-Based Questions
+A company experiences high CPU usage in their VMs. How would you use Azure Monitor to diagnose the issue?
+Your application is experiencing random slowdowns. How would you analyze this using Azure Monitor and Application Insights?
+Your team wants to track service health across multiple Azure regions. How would you configure this in Azure Monitor?
+You need to monitor a microservices-based application running in Kubernetes (AKS). What features of Azure Monitor would you use?
+Your security team wants to track unauthorized access attempts in your Azure environment. How would you set up monitoring and alerts?
+2. Azure Network Watcher
+Medium-Level Questions
+What is Azure Network Watcher, and what are its primary use cases?
+How does Connection Monitor work in Network Watcher?
+What is IP Flow Verify, and how does it help in troubleshooting network issues?
+What is the Packet Capture feature in Network Watcher?
+What are Next Hop and Route Table Diagnostics, and how do they help with networking issues?
+How does Network Performance Monitor work with Network Watcher?
+What is the Topology View, and how does it help with network visualization?
+How do you use Network Watcher Logs for auditing and compliance?
+What are the prerequisites for enabling Network Watcher in Azure?
+How can you enable Network Watcher using Azure CLI or PowerShell?
+Advanced Questions
+How do you use NSG Flow Logs to analyze network traffic?
+What is the difference between NSG Flow Logs and Azure Traffic Analytics?
+How can you troubleshoot intermittent connectivity issues using Network Watcher?
+What role does Network Watcher play in hybrid cloud connectivity?
+How can you automate Packet Captures using Azure Logic Apps?
+How does Azure Network Watcher integrate with third-party SIEM tools?
+What is the difference between Network Watcher Connection Troubleshoot and Connection Monitor?
+How do Application Security Groups (ASGs) impact traffic monitoring with Network Watcher?
+How do you monitor ExpressRoute circuits using Network Watcher?
+How would you configure Network Watcher alerts for detecting abnormal network behavior?
+Scenario-Based Questions
+A VM is unable to connect to an external database. How would you use Azure Network Watcher to troubleshoot?
+Your company experiences high outbound traffic from an unknown source. How would you detect and investigate this?
+A user reports latency issues when accessing an Azure service. How would you diagnose the problem using Network Watcher?
+Your security team wants to monitor ingress and egress traffic patterns. Which Network Watcher tools would you use?
+A multi-region application is experiencing network bottlenecks. How would you optimize connectivity using Network Watcher?
+Bonus: Comparison of Azure Monitor vs. Network Watcher
+Feature	Azure Monitor	Azure Network Watcher
+Purpose	Observability and Monitoring	Network Troubleshooting
+Scope	Metrics, Logs, Application Monitoring	Network Traffic Analysis, Troubleshooting
+Key Features	Log Analytics, Metrics, Alerts, Application Insights	NSG Flow Logs, Packet Capture, IP Flow Verify
+Use Cases	Performance Monitoring, Application Debugging	Network Connectivity, Security Audits
+Data Storage	Stores Logs & Metrics in Log Analytics Workspace	Stores Network Logs & Flow Logs in Storage Account
+Tools	Kusto Query Language (KQL), Dashboards, Alerts	Packet Capture, Connection Troubleshoot, Traffic Analytics
+This list covers a wide range of medium, advanced, and scenario-based questions on Azure Monitor and Network Watcher, ensuring that you are well-prepared for an Azure interview! 🚀 Let me know if you need additional deep dives on any topic!
+
+
+
+
+
+
+
