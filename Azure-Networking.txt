@@ -1,2 +1,6 @@
 what is hub and spoke model . which components will be placed under hub and which will be on spoke . 
 what are benefits of using hub and spoke model . Is there any drawback . and how do we set up in azure . 
+what is Landing zone . why should we use and key benefits . 
+DNS Zones , Private DNS Zones and DNS Private resolvers ? what are the diffrences on these three and use cases of all three . 
+what is Private link ? what is the diffrences between private link and Private end points ? 
+
