@@ -5,3 +5,8 @@ DNS Zones , Private DNS Zones and DNS Private resolvers ? what are the diffrence
 what is Private link ? what is the diffrences between private link and Private end points ? 
 Custom IP Prefixes and Public IP Prefixes . differences and use cases ? 
 Hybrid Connectivity : Virtual network gateway and express route ... Idea and use cases ?
+Azure firewall manager and firewall .. diffrences ?
+NSG and WAF details ? roles and there implementation 
+Load balancers types ,application gateway ,  use cases .. how will you choose which load balancer is best suited for application . 
+Frontdoor and CDN Profiles ??
+Azure Monitoring and network wtacher ? 
